@@ -96,7 +96,7 @@ function log(msg, cnsl=false) {
     const ts_datetime = now.toISOString();                         // "YYYY-MM-DDTHH:MM:SS.sssZ"
     const ts_date = ts_datetime.split('T')[0];                     // "YYYY-MM-DD"
   
-    const logFile = path.join(config.dirs.logs, `acep-gdrive-inventory_${ts_date}.log`);
+    const logFile = path.join(config.dirs.logs, `acep-infosec-web_${ts_date}.log`);
   
     try {
       fs.appendFileSync(logFile, `${ts_datetime} : ${msg}\n`, 'utf8');
