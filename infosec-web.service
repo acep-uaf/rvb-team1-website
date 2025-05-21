@@ -1,0 +1,16 @@
+[Unit]
+Description=Infosec ACEP Website
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www/infosec-acep-uaf-edu-website
+ExecStart=/usr/bin/npm start
+Restart=always
+RestartSec=10
+Environment=NODE_ENV=production
+User=www-data
+Group=www-data
+
+[Install]
+WantedBy=multi-user.target
