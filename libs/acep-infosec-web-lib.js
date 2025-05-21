@@ -71,6 +71,14 @@ function load_config() {
       }
 
 
+    // Create Directories
+    for (const dir of Object.values(config.dirs)) {
+        if (!fs.existsSync(dir)) {
+            fs.mkdirSync(dir, { recursive: true });
+        }
+    }
+
+
     // Get Host IP Addresses
     const networkInterfaces = os.networkInterfaces();
     config.host = {}
