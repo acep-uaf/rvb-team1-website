@@ -1,0 +1,10 @@
+{
+    "dirs": {
+        "base": "DIRNAME",
+        "logs": "BASE/logs",
+        "html": "BASE/html"
+    },
+    "web": {
+        "port": 8080
+    }
+}
