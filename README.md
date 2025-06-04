@@ -1,13 +1,13 @@
-# rvb-team0-website
+# rvb-team1-website
 
 # Installation
 
 ```
-git clone https://github.com/acep-uaf/rvb-team0-website.git
+git clone https://github.com/acep-uaf/rvb-team1-website.git
 ```
 
 ```
-cd rvb-team0-website
+cd rvb-team1-website
 ```
 
 ```
