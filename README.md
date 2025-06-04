@@ -1,15 +1,13 @@
-# infosec-acep-uaf-edu-website
-ACEP InfoSec Website
-- infosec.acep.uaf.edu
+# rvb-team0-website
 
 # Installation
 
 ```
-git clone https://github.com/acep-uaf/infosec-acep-uaf-edu-website.git
+git clone https://github.com/acep-uaf/rvb-team0-website.git
 ```
 
 ```
-cd infosec-acep-uaf-edu-website
+cd rvb-team0-website
 ```
 
 ```
